@@ -20,6 +20,7 @@ print("La temperatura mínima registrada ha sido de ", minima_temperatura)
 # Pregunta 3 : ¿Qué temperaturas son superiores a 22 ºC?
 for temperatura in temperaturas:
     if temperatura > 22:
+        print("Las temperaturas superiores a 22º han sido las siguientes:")
         print(temperatura)
 
 # Pregunta 4: ¿Ha hecho algún día más de 25 ºC?
